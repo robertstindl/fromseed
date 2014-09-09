@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Entry>
+    <Import ref="blog.tag"/>
+    <Element tag="#article">
+        <Element tag="#headline">Getreide einweichen - Pro und Contra</Element>
+        <Element tag="#author">Robert Stindl</Element>
+        <Element tag="#from">24.07.1978</Element>
+        <Element tag="#teaser">In vielen Kulturen ist das einweichen von Getreide mit Wasser über Nacht Normalität. Es setzt fermentation in Gang und löst damit einen Prozess aus, der Getreide verdaulicher macht. Aber wie verhält es sich im Detail?</Element>
+        <Element tag="#block">
+            <Element tag="#headline">Geschichte</Element>
+            <Element tag="#text">Einige Wörter über die Geschichte des Fermentierens</Element>
+        </Element>
+        <Element tag="#block">
+            <Element tag="#headline">Fermentationszeiten von Getreide</Element>
+            <Element tag="#text">Getreide 5 Stunden, Weizen 3 Stunden</Element>
+        </Element>
+    </Element>
+</Entry>

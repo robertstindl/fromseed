@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Elements>
+    <!-- Added changed comment -->
+    <Element tag="#Tag #Aggregate(Name)">
+        <Element value="Contact" tag="#Tagname"/>
+		<Element value="Container" tag="#Tagtype"/>
+    </Element>
+    <Element tag="#Tag">
+        <Element value="Firstname" tag="#Tagname"/>
+		<Element value="String" tag="#TagType"/>
+		<Element value="32" tag="#Length"/>
+		<Element value="Parent" tag="#Contact"/>
+	</Element>
+    <Element tag="#Contact #Like(Strong)">
+        <Element value="Robert" tag="#Firstname"/>
+        <ELement value="Stindl" tag="#Lastname"/>
+        <Element value="24.07.1978" tag="#Birthday"/>
+        <Element link="Adress1" tag="#Hauptwohnsitz"/>
+    </Element>
+    <Element tag="#Adress">
+        <Element value="2130" tag="#Postleitzahl"/>
+        <Element value="Mistelbach" tag="#Ort"/>
+        <Element value="Im Dorf 74" tag="#Strasse"/>
+        <ELement value="Austria" tag="#Country"/>
+    </Element>
+    <Element tag="#Seed">
+        <Element tag="#Name">Dinkel</Element>
+        <ELement tag="#Description #Source(1243)">Dinkel (Triticum aestivum subsp. spelta) oder 
+            Spelz (auch: Spelt, Fesen, Vesen oder Schwabenkorn) ist eine Getreideart 
+            und ein enger Verwandter des heutigen Weizens. Es gibt sehr viele Mischformen 
+            und Übergänge zwischen „modernem“ Weizen und Dinkel, weil beide in manchen 
+            Regionen gemeinsam angebaut und auch miteinander gekreuzt wurden
+        </ELement>
+        <Element tag="#Geschichte">In der Jungsteinzeit wurde Dinkel in Mittel- und Nordeuropa 
+            (vor allem im Alpenraum) angebaut, was archäologische Funde beweisen.[2] 
+            Die ältesten Funde von Dinkel stammen aus Westgeorgien und den Tälern des 
+            Ararat-Gebirges (6. bis 5. Jahrtausend v. Chr.) Weitere Funde stammen aus 
+            Bulgarien (3700 v. Chr.), Polen und Südschweden (2500 bis 1700 v. Chr.) sowie 
+            Dänemark (1900 bis 1600 v. Chr.)[3] Ab 1700 v. Chr. kam er in der heutigen 
+            Deutschschweiz vor. Im 18. Jahrhundert war Dinkel ein wichtiges Handelsgetreide. 
+            Das Wort Dinkel erscheint in den Ortsnamen Dinkelsbühl und Dinkelscherben sowie
+            deren Wappen (jeweils drei Ähren). Daran kann abgelesen werden, wie hoch dieses 
+            Getreide geschätzt wurde. Christliche Pilger nahmen ihn als haltbare Frucht 
+            überallhin mit, daher ist er heute weltweit verbreitet. Die Tradition, dass ein 
+            Teil des Dinkels schon vor der Reife, also noch grün geerntet wird, stammt aus dem 
+            Bedarf an nährstoffreichen Grundnahrungsmitteln für die Feldarbeit im Sommer. 
+            Das unreife Getreide, Grünkern genannt, ist nicht lagerfähig, weshalb es gedarrt, 
+            d. h. getrocknet wird. Grünkern ist nicht backbar, es kann zu Suppen oder 
+            Grünkernküchle verarbeitet werden.
+        </Element>
+        <Element tag="#Inhaltsstoffe">
+            <Element tag="#Wasser" tag="Unit(Gramm)">11.0</Element>
+            <Element tag="#Eiweiss" tag="Unit(Gramm)">14.6</Element>
+        </Element>
+    </Element>
+</Elements>

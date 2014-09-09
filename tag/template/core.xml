@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Nature name="Core" version="1">
+    <Element name="item" tag="#SYSTEM(ITEM)"/>
+    <Element name="tag" tag="#SYSTEM(TAG)"/>
+    <Element name="nature" tag="#SYSTEM(NATURE)"/>
+    <Element name="container" tag="#tag #SYSTEM(ITEM)"/>
+    <Element name="text" tag="#tag #SYSTEM(ITEM)"/>
+    <Element name="number" tag="#tag #SYSTEM(ITEM)"/>
+    <Element name="date" tag="#tag #SYSTEM(ITEM)"/>
+    
+</Nature>
