@@ -1,14 +1,12 @@
-package net.fromseed.core;
+package net.fromseed.client;
 
-public class fromseed {
+public class Seeder {
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		
 		System.out.println("Hallo");
-
 	}
 
 }
